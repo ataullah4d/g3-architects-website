@@ -62,31 +62,13 @@ nav li a{
       background: orangered;
       cursor: pointer;
       border: 0px;
+    
 }
 .banner img{
       margin-top: 20px;
       width: 100%;
 }
 
-/*responsive media query*/
-@media screen and (max-width: 576px){ header{
-            padding: 20px;
-      }
-      nav{
-            flex-direction: column;
-      }
-      
-}
-/*tablet or medium devices*/
-@media screen and (min-width: 576px)and (max-width: 960px) { 
-      header{
-            padding: 50px;
-      }
-      nav{
-            flex-direction: column;
-      }
-      
-}
 .main{
       max-width: 1440px;
       margin: auto;
@@ -111,5 +93,32 @@ nav li a{
 }
 .teams-title .text-feater{
       color: rgb(255, 144, 14);
-      font-weight: 700;
+      font-weight: 70px}
+
+
+/*responsive media query*/
+@media screen and (max-width: 576px){ header{
+      padding: 18px;
+}
+nav,
+.teams-container
+{
+      flex-direction: column;
+}
+.teams-img-container{
+      grid-template-columns: 1fr;
+}
+
+}
+
+
+/*tablet or medium devices*/
+@media screen and (min-width: 576px)and (max-width: 960px) { 
+header{
+      padding: 50px;
+}
+nav{
+      flex-direction: column;
+}
+
 }
