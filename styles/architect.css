@@ -94,6 +94,15 @@ nav li a{
 .teams-title .text-feater{
       color: rgb(255, 144, 14);
       font-weight: 70px}
+      .facts{
+            font-size: 30px;
+            font-weight: 600;
+      }
+      .paragraph{
+            font-size: 16px;
+            font-weight: 200;
+
+      }
 
 
 /*responsive media query*/
