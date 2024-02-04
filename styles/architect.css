@@ -94,7 +94,7 @@ nav li a{
 .teams-title .text-feater{
       color: rgb(255, 144, 14);
       font-weight: 70px}
-      .facts{
+      .section-title{
             font-size: 30px;
             font-weight: 600;
       }
@@ -103,6 +103,32 @@ nav li a{
             font-weight: 200;
 
       }
+.facts-card-container{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px;
+}
+
+.facts-card-container .card{
+      border-radius: 8px;
+      border: 1px solid tomato;
+      text-align: center;
+      padding: 40px 30px;
+}
+.facts-card-container .card-title{
+      font-weight: 600;
+} 
+
+.facts-card-container .card-stats{
+      font-size: 3rem;
+      color: rgb(66, 66, 66);
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+
+
+
 
 
 /*responsive media query*/
